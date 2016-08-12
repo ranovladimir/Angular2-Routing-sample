@@ -21,3 +21,4 @@ WINDOWS ONLY run npm run typings-install to install typings
 run npm start to fire up dev server
 
 open browser to http://localhost:3000
+ 
