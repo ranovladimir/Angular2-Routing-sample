@@ -1,0 +1,37 @@
+
+
+    <h2>Bordered Table</h2>
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+        <thead>
+        <tr>
+          <th>Id</th>
+          <th>Pseudo</th>
+          <th>Nom</th>
+          <th>Prenom</th>
+          <th>Email</th>
+          <th>Entreprise</th>
+          <th>Date de creation</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{user.idUser}}</td>
+          <td>{{user.pseudoUser}}</td>
+          <td>{{user.nomUser}}</td>
+          <td>{{user.prenomUser}}</td>
+          <td>{{user.passwordUser}}</td>
+          <td>{{user.emailUser}}</td>
+          <td>{{user.entrepriseUser}}</td>
+          <td>{{user.createdAt}}</td>
+        </tr>
+
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+
+
