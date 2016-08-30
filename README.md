@@ -4,9 +4,11 @@ A simple starter project demonstrating the basic concepts of routing on Angular 
 
 This branch uses Webpack for Development. There is also a SystemJS branch available.
 
-Usage
+Usage : 
 
-Clone or fork this repository
+Clone or fork a Angular2 seed project at https://github.com/angular/angular2-seed
+
+Remove the src and add that (Angular2-Routing-sample) src.
 
 Make sure you have node.js installed version 5+
 
